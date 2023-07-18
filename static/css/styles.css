@@ -127,3 +127,20 @@
     position: absolute;
     margin-left: 80%;
 }
+
+.nav-link {
+    border-radius: 5px;
+}
+
+.nav-item > a {
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: #FCD462;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 20px;
+}
