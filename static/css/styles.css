@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Caveat&family=Herr+Von+Muellerhoff&family=Nothing+You+Could+Do&family=Outfit:wght@200;300&family=PT+Serif&family=Permanent+Marker&family=Pinyon+Script&family=Playfair+Display&family=Rubik&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Raleway&display=swap'); /* logo font */
+
+.logo-font-raleway {
+    font-family: 'Raleway';
+}
+
+.logo-font-istok {
+    font-family: 'Istok';
+}
+
+.font-permanent-marker-cursive {
+    font-family: 'Permanent Marker';
+}
+
+.font-nothing-you-could-do-cursive {
+    font-family: 'Nothing You Could Do';
+}
+
+.font-pinyon-script-cursive {
+    font-family: 'Pinyon Script';
+}
+
+.font-herr-von-cursive {
+    font-family: 'Herr Von Muellerhoff';
+}
+
+.font-allison-cursive {
+    font-family: 'Allison';
+}
+
+.font-rubik-sans {
+    font-family: 'Rubik';
+}
+
+.font-caveat-cursive {
+    font-family: 'Caveat';
+}
+
+.font-outfit-sans {
+    font-family: 'Outfit';
+}
+
+.font-playfair-display-serif {
+    font-family: 'PlayFair Display';
+}
+
+.font-pt-serif {
+    font-family: 'PT Serif';
+}
+
+.color-saunguine-brown {
+    color: #843434;
+}
+
+.color-mulled-wine {
+    color: #433b5c;
+}
+
+.color-waterlooo {
+    color: #8c829c;
+}
+
+.color-almond {
+    color: #edd7c9;
+}
+
+.color-pearl-bush {
+    color: #e8dfd5;
+}
+
+.color-quicksand {
+    color: #c5a3a1;
+}
+
+.color-old-rose {
+    color: #c27d87;
+}
+
+.color-dandelion {
+    color: #FCD462;
+}
+
+.bg-color-errie-black {
+    background-color: #1a1a1a;
+}
+
+.bg-color-very-dark-gray {
+    background-color: #313131;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(252, 212, 98, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.space-left-5x {
+    margin-left: 5px;
+}
+
+.space-left-10x {
+    margin-left: 10px;
+}
+
+.logo-wrapper {
+    font-weight: 700;
+    margin-bottom: -25px;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: right;
+    font-weight: 200;
+    font-size: 0.5em;
+    padding-right: 10%;
+}
+
+.btn-close {
+    display: flex;
+    position: absolute;
+    margin-left: 80%;
+}
