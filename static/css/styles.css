@@ -136,9 +136,13 @@
     color: white;
 }
 
+.nav-item > a:hover {
+    color: white;
+}
+
 .nav-link:hover {
-    background-color: #FCD462;
-    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #FCD462;
 }
 
 nav {
