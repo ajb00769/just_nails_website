@@ -148,3 +148,23 @@
 nav {
     margin-top: 20px;
 }
+
+.transition-fade {
+    opacity: 1;
+    transition: 500ms;
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
+}
+
+html.is-leaving .transition-fade {
+    opacity: 0;
+}
+
+.section-first {
+    display: flex;
+    margin-top: 140px;
+    align-items: center;
+    justify-content: center;
+}
