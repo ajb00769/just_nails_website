@@ -1,6 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Allison&family=Caveat&family=Herr+Von+Muellerhoff&family=Nothing+You+Could+Do&family=Outfit:wght@200;300&family=PT+Serif&family=Permanent+Marker&family=Pinyon+Script&family=Playfair+Display&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Caveat&family=Herr+Von+Muellerhoff&family=Nothing+You+Could+Do&family=PT+Serif&family=Permanent+Marker&family=Pinyon+Script&family=Playfair+Display&family=Rubik&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Raleway&display=swap'); /* logo font */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 .logo-font-raleway {
     font-family: 'Raleway';
@@ -36,10 +49,6 @@
 
 .font-caveat-cursive {
     font-family: 'Caveat';
-}
-
-.font-outfit-sans {
-    font-family: 'Outfit';
 }
 
 .font-playfair-display-serif {
@@ -80,6 +89,10 @@
 
 .color-dandelion {
     color: #FCD462;
+}
+
+.color-dark-dandelion {
+    color: #f5b80f;
 }
 
 .bg-color-errie-black {
@@ -149,22 +162,99 @@ nav {
     margin-top: 20px;
 }
 
-.transition-fade {
-    opacity: 1;
-    transition: 500ms;
-}
-
-html.is-animating .transition-fade {
-    opacity: 0;
-}
-
-html.is-leaving .transition-fade {
-    opacity: 0;
-}
-
 .section-first {
     display: flex;
-    margin-top: 140px;
+    margin-top: 120px;
     align-items: center;
     justify-content: center;
+}
+
+.img-responsive {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 70px;
+    border-radius: 5px;
+}
+
+.section-first-gallery {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: gray;
+}
+
+.footer-text a {
+    color: gray;
+    text-decoration: none;
+}
+
+.footer-div {
+    margin-top: auto;
+}
+
+.img-round-portrait {
+    border-radius: 50%;
+}
+
+.section {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-custom-gold {
+    background-color: #f5b80f;
+    border: solid 1px transparent;
+    cursor: pointer;
+    font-size: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Outfit';
+    letter-spacing: 1px;
+}
+
+.btn-custom-gold:hover {
+    background-color: transparent;
+    color: #f5b80f;
+    border: solid 1px #f5b80f;
+}
+
+.btn-custom-gray {
+    background-color: transparent;
+    color: #8c829c;
+    border: solid 1px #8c829c;
+    cursor: pointer;
+    font-size: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Outfit';
+    letter-spacing: 1px;
+}
+
+.btn-custom-gray:hover {
+    background-color: #8c829c;
+    color: black;
+    border: solid 1px transparent;
+}
+
+.title-font-sz {
+    font-size: 3em;
+}
+
+.small-font-sz {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
