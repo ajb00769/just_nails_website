@@ -258,3 +258,33 @@ nav {
     font-weight: 700;
     letter-spacing: 1px;
 }
+
+.custom-icon {
+    width: 50px;
+    margin: 20px;
+}
+
+.form-control {
+    background-color: #1a1a1a !important;
+    border-color: transparent !important;
+    border-radius: 0px !important;
+    color:#FCD462 !important;
+    outline: solid 1px #f5b80f;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 5px white !important;
+    border: transparent !important;
+}
+
+.form-control::placeholder {
+    color: white !important;
+}
+
+.form-group {
+    margin: 5px;
+}
+
+.contact-label {
+    margin-bottom: 4px;
+}
