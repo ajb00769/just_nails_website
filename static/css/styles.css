@@ -288,3 +288,7 @@ nav {
 .contact-label {
     margin-bottom: 4px;
 }
+
+.text-justify {
+    text-align: justify;
+}
